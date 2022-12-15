@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke Test Suite- Saiv Android App">
+<test name="Test 1 : Smoke Test Saiv App - Verify_Registration_and_Login">
+		<parameter name="userName_1" value="hasithaqa001"></parameter>
+		<parameter name="userName_2" value="hasithaqa002"></parameter>
+		<parameter name="userName_3" value="hasithaqa003"></parameter>
+		<parameter name="userName" value="hasithaqa002"></parameter>
+		<parameter name="password" value="Test@123"></parameter>
+		<parameter name="groupType1" value="Rotating payouts"></parameter>
+		<parameter name="groupType2" value="Save as you go"></parameter>
+		<parameter name="ultimateGoal" value="12"></parameter>
+		<parameter name="paymentFrequency" value="30 Minutes"></parameter>
+		<parameter name="firstName" value="firstName"></parameter>
+		<parameter name="lastName" value="lastName"></parameter>
+		<parameter name="nickName" value="nickName"></parameter>
+		<parameter name="amount" value="4"></parameter>
+		<parameter name="otp" value="112200"></parameter>	
+		<parameter name="mobileNumber" value="070"></parameter>	
+		<parameter name="email" value="user12345@arimaclanka.com"></parameter>	
+		<parameter name="cardnumber" value="4038228000592019"></parameter>
+		<parameter name="CardYear" value="2024"></parameter>	
+		<parameter name="CardMonth" value="03"></parameter>	
+		<parameter name="CardCVV" value="333"></parameter>	
+		<parameter name="loanamount" value="4"></parameter>
+		<parameter name="partialPayAmount" value="2"></parameter>
+		<parameter name="gratuityRate" value="1"></parameter>
+		<parameter name="requestReason" value="Testing"></parameter>
+		<parameter name="sendReason" value="Testing"></parameter>
+		<parameter name="sendAmount" value="4"></parameter>
+		<parameter name="requestAmount" value="4"></parameter>
+		<parameter name="requestAmount" value="4"></parameter>
+		<parameter name="monthlyContribution" value="4"></parameter>
+		<parameter name="paymentReason" value="Testing"></parameter>
+		<classes>
+			<class name="com.arimac.saiv.configs.ConfigTestSAIV" />
+			<class name="com.arimac.saiv.testScripts.Latest.Smoke_Test" />
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke Test Suite- ChiveLab Android App">
+
+
+	<!-- Preconditions: Registered user with below data / user auto_003 is used for the profile test -->
+
+	<test name="Test 1 : Smoke Test ChiveLab IOS App - verifyRegistrationLogIn">
+		
+		<classes>
+			<class name="com.chivelab.configs.ConfigTestSAIV" />
+			<class name="com.chivelab.testScripts.Android.RegistrationLoginTest" />
+		</classes>
+	</test>
+</suite>

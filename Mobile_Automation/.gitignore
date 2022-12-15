@@ -1,0 +1,8 @@
+/target/
+/ExtentReports/
+/ScreenShots/
+/logfile.log
+/test-output/
+.idea/*
+.settings/*
+.idea/workspace.xml

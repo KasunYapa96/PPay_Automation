@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extentreports>
+	<configuration>
+		<theme>standard</theme>
+		<encoding>UTF-8</encoding>
+		<documentTitle>Execution Report</documentTitle>
+		<reportName>Test Execution Report</reportName>
+		<reportHeadline>Saiv Application - Android
+		</reportHeadline>
+		<testViewChartLocation>bottom</testViewChartLocation>
+		<scripts>
+<![CDATA[
+$(document).ready(function() {
+$(‘#parentWithoutNodes’).prop("checked", true).click();
+$(‘#test-count-setting > div.modal-footer > a’)[0].click();
+});
+]]>
+		</scripts>
+	</configuration>
+</extentreports>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test Suite- Saiv Android App">
+
+
+	<!-- Preconditions: Registered user with below data -->
+
+			 <test name="Test 2 : Smoke Test Saiv App - verify_HomePage">
+		<parameter name="userName_1" value="auto_001"></parameter>
+		<parameter name="userName_2" value="auto_002"></parameter>
+		<parameter name="userName_3" value="auto_003"></parameter>
+		<parameter name="userName" value="auto_001"></parameter>
+		<parameter name="password" value="Test@123"></parameter>
+		<parameter name="groupType" value="Save as you go"></parameter>
+		<parameter name="ultimateGoal" value="3000"></parameter>
+		<parameter name="paymentFrequency" value="30 Minutes"></parameter>
+		<parameter name="firstName" value="firstName"></parameter>
+		<parameter name="lastName" value="lastName"></parameter>
+		<parameter name="nickName" value="nickName"></parameter>
+		<parameter name="amount" value="1000"></parameter>
+		<parameter name="requestReason" value="Testing"></parameter>
+		<parameter name="otp" value="112200"></parameter>	
+		<parameter name="mobileNumber" value="070666"></parameter>	
+		<parameter name="email" value="user12345@arimaclanka.com"></parameter>
+		<classes>
+			<class name="com.arimac.saiv.configs.ConfigTestSAIV" />
+			<class name="com.arimac.saiv.testScripts.Latest.HomePageTest" />
+		</classes>
+	</test>
+</suite>
